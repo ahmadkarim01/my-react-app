@@ -26,6 +26,13 @@ const BookingForm = () => {
         console.log(formData);
     };
 
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        //Jandle form submission
+        CompositionEvent
+    }
+
     return (
         <form onSubmit={handleSubmit} style={{ display: 'grid', maxWidth: '200px', gap: '20px' }}>
             <div>
